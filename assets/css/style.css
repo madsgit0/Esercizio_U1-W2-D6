@@ -154,6 +154,7 @@ iframe {
 /* TABELLE */
 table {
     margin-bottom: 2em;
+    min-width: 100%;
 }
 caption {
     font-weight: bold;
@@ -226,6 +227,80 @@ footer {
     text-align: center;
     font-size: 1.2rem;
 }
+
 footer a {
     color: fuchsia;
 }
+
+/* RESPONSIVE */
+/* ------------------------------- */
+
+
+@media screen and (min-width: 488px) {
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    ul, ol {
+        font-size: 20px;
+    }
+
+    /* TABELLE */
+    table {
+        font-size: 18px;
+    }
+    caption {
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+
+    /* FORM */
+    input {
+        padding: 5px;
+        font-size: 18px;
+        width: 50%;
+    }
+
+    button {
+        padding: 5px 7px;
+        font-size: 18px;
+    }
+        
+    /* ELEMENTI NELL' ASIDE */
+    aside h2 {
+        font-size: 3rem;
+    }
+
+    aside a{
+        font-size: 16px;
+    }
+
+    aside div p:last-child {
+        margin-bottom: 0;
+        font-size: 15px;
+        text-align: right;
+    }
+
+
+/* FOOTER */
+    footer{
+        font-size: 15px;
+    }
+}   
+
+320px 480
+
+768
+giusto il testo
+
+1200px
